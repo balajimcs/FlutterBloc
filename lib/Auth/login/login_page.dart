@@ -48,7 +48,7 @@ class _LoginAuthState extends State<LoginAuth> {
             decoration: BoxDecoration(
                 image: DecorationImage(
               alignment: Alignment.topCenter,
-              image: AssetImage('assets/images/Group 3.png'),
+              image: AssetImage('assets/images/why-angler.jpg'),
               fit: BoxFit.fill,
             )),
             child: Container(
@@ -170,7 +170,7 @@ class _LoginAuthState extends State<LoginAuth> {
                                                 width: 10,
                                               ),
                                               Image.asset(
-                                                  ("assets/images/2029711.png"),
+                                                  ("assets/images/logo_angler.png"),
                                                   width: 30,
                                                   height: 30,
                                                   color: Color(0xFF134FAF)),
@@ -313,7 +313,7 @@ class _LoginAuthState extends State<LoginAuth> {
                                                                 passwordController
                                                                     .clear();
                                                               });
-                                                              Get.back();
+                                                              Get.toNamed(RouteNames.home);
                                                             },
                                                           ),
                                                         ],
@@ -346,7 +346,7 @@ class _LoginAuthState extends State<LoginAuth> {
                                                           Color(0xFF134FAF)
                                                         ])),
                                                 child: Text(
-                                                  'login',
+                                                  'Login',
                                                   style: TextStyle(
                                                     fontSize: 20,
                                                     color: Colors.white,
@@ -362,7 +362,7 @@ class _LoginAuthState extends State<LoginAuth> {
                                                     vertical: 10),
                                                 alignment:
                                                     Alignment.centerRight,
-                                                child: Text('fog_password',
+                                                child: Text('Forgot Password',
                                                     style: TextStyle(
                                                         fontSize: 16,
                                                         fontFamily: "Raleway",
@@ -423,7 +423,7 @@ class _LoginAuthState extends State<LoginAuth> {
                                                       MainAxisAlignment.center,
                                                   children: <Widget>[
                                                     Text(
-                                                      'don\'t_have_acc',
+                                                      'Don\'t have account',
                                                       style: TextStyle(
                                                         fontSize: 16,
                                                         fontFamily: "Raleway",
@@ -433,7 +433,7 @@ class _LoginAuthState extends State<LoginAuth> {
                                                       width: 10,
                                                     ),
                                                     Text(
-                                                      'register',
+                                                      'Register',
                                                       style: TextStyle(
                                                         color:
                                                             Color(0xFF134FAF),
@@ -492,7 +492,7 @@ class _LoginAuthState extends State<LoginAuth> {
                                                             .center,
                                                     children: <Widget>[
                                                       Text(
-                                                        'login_with_otp',
+                                                        'Login with otp',
                                                         style: TextStyle(
                                                           color:
                                                               Color(0xFF134FAF),
